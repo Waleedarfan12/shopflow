@@ -1,4 +1,4 @@
-{{ config(materialized='table', schema='bronze') }}
+{{ config(materialized='table' ) }}
 
 SELECT
     review_id,

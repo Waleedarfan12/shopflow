@@ -1,4 +1,4 @@
-{{ config(materialized='table', schema='gold') }}
+{{ config(materialized='table') }}
 
 SELECT
     DATE_TRUNC('month', o.order_purchase_timestamp) AS month,
