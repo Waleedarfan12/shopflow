@@ -41,34 +41,33 @@ Orchestration	Apache Airflow
 Containerization	Docker, Docker Compose
 Visualization	Power BI
 
-
 📂 Project Structure
+
+```
 shopflow/
 │
 ├── ingestion/
-│   ├── raw_data/                # Kaggle datasets (CSV)
-│   └── extract_data.py         # Data ingestion script
+│   ├── raw_data/              # Kaggle datasets (CSV)
+│   └── extract_data.py        # Data ingestion script
 │
 ├── dbt/
 │   └── shopflow_dbt/
 │       ├── models/
-│       │   ├── bronze/        # Raw layer models
-│       │   ├── silver/        # Cleaned & joined models
-│       │   └── gold/          # Business KPI models
+│       │   ├── bronze/       # Raw layer models
+│       │   ├── silver/       # Cleaned & joined models
+│       │   └── gold/         # Business KPI models
 │       ├── macros/
 │       └── dbt_project.yml
 │
 ├── airflow/
 │   └── dags/
-│       └── shopflow_dag.py     # Pipeline orchestration
+│       └── shopflow_dag.py   # Pipeline orchestration
 │
 ├── powerbi/
 │   └── shopflow_dashboard.pbix
 │
 ├── docker-compose.yml
 └── README.md
-🥉 Bronze Layer (Raw Data)
-
 
 
 Stores raw ingested data without transformation.
