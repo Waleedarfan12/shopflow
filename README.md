@@ -15,6 +15,7 @@ Implement Medallion Architecture (Bronze → Silver → Gold)
 Automate workflows using Apache Airflow
 Transform data using dbt with modular models
 Deliver business insights via Power BI dashboard
+
 DATA PIPELINE FLOW
 
 [Olist Dataset]
@@ -32,6 +33,7 @@ DATA PIPELINE FLOW
 [Airflow Orchestration]
        ↓
 [Power BI Dashboard]
+
 🛠️ Tech Stack
 Layer	Tools / Technologies
 Data Source	Kaggle (Olist Dataset)
