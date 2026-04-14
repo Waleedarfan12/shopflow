@@ -40,6 +40,8 @@ Transformation	dbt (dbt-postgres)
 Orchestration	Apache Airflow
 Containerization	Docker, Docker Compose
 Visualization	Power BI
+
+
 📂 Project Structure
 shopflow/
 │
@@ -66,6 +68,8 @@ shopflow/
 ├── docker-compose.yml
 └── README.md
 🥉 Bronze Layer (Raw Data)
+
+
 
 Stores raw ingested data without transformation.
 
@@ -114,6 +118,7 @@ Order Fulfillment (Donut Chart)
 Top Categories (Bar Chart)
 Customer Lifetime Value (Table)
 ⚙️ Orchestration (Apache Airflow)
+
 
 Pipeline is scheduled and automated using Airflow DAG:
 
