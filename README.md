@@ -110,28 +110,27 @@
 | 👤 **Customer Lifetime Value** | Identify top customers |
 | 🏷️ **Top Categories** | Guide inventory decisions |
 
-### Dashboard Visuals
+## 📊 Power BI Dashboard - Key Metrics
 
-│ 💰 $2.5M 📦 100K ⭐ $250 🚚 95% │
-│ Revenue Orders AOV Delivery Rate │
-├─────────────────────────────────────────────────────────────────┤
-│ │
-│ Monthly Revenue Trend Top Categories │
-│ ┌─────────────────────┐ ┌─────────────────────┐ │
-│ │ 📈 │ │ ███ Health │ │
-│ │ ↗───↗ │ │ ██ Electronics │ │
-│ │ ↗ │ │ █ Furniture │ │
-│ └─────────────────────┘ └─────────────────────┘ │
-│ │
-│ Order Fulfillment Customer Lifetime Value │
-│ ┌─────────────────────┐ ┌─────────────────────┐ │
-│ │ 🟢 85% On-time │ │ Customer │ $15K │ │
-│ │ 🟡 10% Late │ │ Customer │ $12K │ │
-│ │ 🔴 5% Cancelled │ │ Customer │ $8K │ │
-│ └─────────────────────┘ └─────────────────────┘ │
-└─────────────────────────────────────────────────────────────────┘
+### KPI Cards
 
-text
+| 💰 Revenue | 📦 Orders | ⭐ Avg Order Value | 🚚 Delivery Rate |
+|------------|-----------|-------------------|------------------|
+| **$2.5M** | **100K** | **$250** | **95%** |
+
+### Visualizations
+
+| Monthly Revenue Trend | Top Categories |
+|----------------------|----------------|
+| 📈 Increasing trend | ████████████ Health (35%) |
+| ↗️ Steady growth | ██████████ Electronics (28%) |
+| 📊 Seasonal peaks | ████████ Furniture (20%) |
+
+| Order Fulfillment | Customer Lifetime Value |
+|------------------|-------------------------|
+| 🟢 On-time: 85% | Customer A: $15,000 |
+| 🟡 Late: 10% | Customer B: $12,000 |
+| 🔴 Cancelled: 5% | Customer C: $8,000 |
 
 ---
 
@@ -284,6 +283,8 @@ Bronze Models	8 tables	~5 seconds
 Silver Models	5 tables	~15 seconds
 Gold Models	3 tables	~8 seconds
 Total Pipeline	100K+ rows	~38 seconds
+
+
 👨‍💻 Author
 Waleed Arfan
 Data Engineer | Analytics Engineer
