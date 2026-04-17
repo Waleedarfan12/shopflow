@@ -16,23 +16,29 @@ Automate workflows using Apache Airflow
 Transform data using dbt with modular models
 Deliver business insights via Power BI dashboard
 
-DATA PIPELINE FLOW
-
-[Olist Dataset]
-       ↓
-[Python Ingestion]
-       ↓
-[PostgreSQL - Bronze Layer]
-       ↓
-[dbt Transformations]
-       ↓
-[Silver Layer]
-       ↓
-[Gold Layer - KPIs]
-       ↓
-[Airflow Orchestration]
-       ↓
-[Power BI Dashboard]
+## DATA PIPELINE FLOW
+Olist Dataset
+│
+▼
+Python Ingestion
+│
+▼
+PostgreSQL - Bronze Layer
+│
+▼
+dbt Transformations
+│
+▼
+Silver Layer
+│
+▼
+Gold Layer - KPIs
+│
+▼
+Airflow Orchestration
+│
+▼
+Power BI Dashboard
 
 🛠️ Tech Stack
 Layer	Tools / Technologies
